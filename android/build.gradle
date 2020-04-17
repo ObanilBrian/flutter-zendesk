@@ -35,6 +35,8 @@ android {
     }
 
     dependencies {
+        implementation 'com.google.android.material:material:1.0.0'
+        
         api group: 'com.zopim.android', name: 'sdk', version: '1.4.2'
         api group: 'com.zendesk', name: 'support', version: '4.0.0'
     }
